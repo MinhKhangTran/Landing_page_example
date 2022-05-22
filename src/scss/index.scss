@@ -3,3 +3,10 @@
 @import "a11y";
 
 @import "wf";
+
+.w-slider-dot.w-active {
+  background-color: #5d606f;
+}
+.w-slider-dot {
+  background-color: hsla(239%, 9%, 40%, 0.5);
+}

@@ -3174,3 +3174,11 @@ body {
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
 }
+
+.w-slider-dot.w-active {
+  background-color: #5d606f;
+}
+
+.w-slider-dot {
+  background-color: hsla(239deg, 9%, 40%, 0.5);
+}
