@@ -3,7 +3,7 @@
     data-delay="4000"
     data-animation="slide"
     class="slider w-slider"
-    data-autoplay="false"
+    data-autoplay="true"
     data-easing="ease"
     data-hide-arrows="false"
     data-disable-swipe="false"
@@ -13,69 +13,25 @@
     data-infinite="true"
   >
     <div class="mask w-slider-mask">
-      <div class="slide w-slide">
+      {% for testi in testi.testis %}
+      <div class="{% if loop.index %}slide{% endif %} w-slide">
         <div class="div-block-2 testi-slide">
           <img src="/images/zitat.svg" loading="lazy" alt="" class="image-3" />
-          <p class="paragraph testi-body">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-            molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-            vero eros et accumsan et iusto odio dignissim qui.
-          </p>
+          <p class="paragraph testi-body">{{testi.text}}</p>
           <div class="div-block-3 testi-person">
             <img
-              src="/images/peter_shaw.png"
+              src="/images/{{testi.img}}.png"
               loading="lazy"
-              alt="Peter Shaw"
+              alt="{{testi.name}}"
               class="image-2"
+              width="64px"
             />
-            <h1 class="heading-2 heading-testi">Peter Shaw</h1>
-            <p class="paragraph-2">/ Sportler</p>
+            <h1 class="heading-2 heading-testi">{{testi.name}}</h1>
+            <p class="paragraph-2">/ {{testi.job}}</p>
           </div>
         </div>
       </div>
-      <div class="w-slide">
-        <div class="div-block-2 testi-slide">
-          <img src="/images/zitat.svg" loading="lazy" alt="" class="image-4" />
-          <p class="paragraph testi-body">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-            molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-            vero eros et accumsan et iusto odio dignissim qui.
-          </p>
-          <div class="div-block-3 testi-person">
-            <img
-              src="/images/bob_andrews.png"
-              loading="lazy"
-              width="64"
-              height="64"
-              alt="Bob Andrews"
-              class="image-2"
-            />
-            <h1 class="heading-2 heading-testi">Bob Andrews</h1>
-            <p class="paragraph-2">/ Sportler</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-slide">
-        <div class="div-block-2 testi-slide">
-          <img src="/images/zitat.svg" loading="lazy" alt="" class="image-5" />
-          <p class="paragraph testi-body">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-            molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-            vero eros et accumsan et iusto odio dignissim qui.
-          </p>
-          <div class="div-block-3 testi-person">
-            <img
-              src="/images/justus_jonas.png"
-              loading="lazy"
-              width="64"
-              alt="Justus Jonas"
-              class="image-2"
-            />
-            <h1 class="heading-2 heading-testi">Justus Jonas</h1>
-            <p class="paragraph-2">/ Sportler</p>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
     </div>
     <div class="left-arrow w-slider-arrow-left">
       <div class="icon-3 w-icon-slider-left"></div>

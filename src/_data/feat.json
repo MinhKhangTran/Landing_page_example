@@ -1,0 +1,19 @@
+{
+  "features": [
+    {
+      "img": "geruch",
+      "name": "Geruchsneutral",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+    },
+    {
+      "img": "umweltfreundlich",
+      "name": "Umweltfreundlich",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+    },
+    {
+      "img": "kostengünstig",
+      "name": "Kostengünstig",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+    }
+  ]
+}
