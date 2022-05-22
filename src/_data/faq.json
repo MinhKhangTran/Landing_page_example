@@ -1,0 +1,21 @@
+{
+  "title": "Die Antworten zu Ihren Fragen",
+  "questions": [
+    {
+      "frage": "Was ist das beste daran?",
+      "antwort": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+    },
+    {
+      "frage": "Was ist, wenn es mir nicht gefällt?",
+      "antwort": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+    },
+    {
+      "frage": "Wie funktioniert es?",
+      "antwort": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+    },
+    {
+      "frage": "Wie viele Farben gibt es?",
+      "antwort": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+    }
+  ]
+}

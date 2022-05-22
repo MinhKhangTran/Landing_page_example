@@ -5,6 +5,11 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addWatchTarget("./src/scss/");
 
+  // add filter for the year
+  eleventyConfig.addFilter("year", () => {
+    return new Date().getFullYear();
+  });
+
   return {
     dir: {
       input: "src",

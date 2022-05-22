@@ -1,36 +1,22 @@
 <div class="wrapper about-us wf-section">
   <div class="div-block-6">
-    <h1 class="heading-3 ber-uns">Über Uns</h1>
-    <p class="paragraph-3">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. ut
-      labore et dolore magna aliquyam erat, sed diam voluptua.
-    </p>
-    <p class="paragraph-3 p-3">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua.
-    </p>
-    <p class="paragraph-3">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. ut
-      labore et dolore magna aliquyam erat, sed diam voluptua.
-    </p>
+    <h1 class="heading-3 ber-uns">{{aboutUs.about_heading}}</h1>
+    <p class="paragraph-3">{{aboutUs.about_text_1}}</p>
+    <p class="paragraph-3 p-3">{{aboutUs.about_text_2}}</p>
+    <p class="paragraph-3">{{aboutUs.about_text_3}}</p>
   </div>
   <div class="div-block-7">
     <img
-      src="/images/about_us.jpeg"
+      src="/images/{{aboutUs.about_img}}.jpeg"
       loading="lazy"
       sizes="(max-width: 767px) 90vw, 44vw"
       srcset="
-        /images/about_us-p-500.jpeg   500w,
-        /images/about_us-p-800.jpeg   800w,
-        /images/about_us-p-1080.jpeg 1080w,
-        /images/about_us.jpeg        1198w
+        /images/{{aboutUs.about_img}}-p-500.jpeg   500w,
+        /images/{{aboutUs.about_img}}-p-800.jpeg   800w,
+        /images/{{aboutUs.about_img}}-p-1080.jpeg 1080w,
+        /images/{{aboutUs.about_img}}.jpeg        1198w
       "
-      alt="About us"
+      alt="{{aboutUs.about_alt}}"
     />
   </div>
 </div>

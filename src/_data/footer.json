@@ -1,0 +1,21 @@
+{
+  "brand": "LPE",
+  "navigations": [
+    {
+      "url": "https://instagram.com",
+      "img": "insta"
+    },
+    {
+      "url": "https://youtube.com",
+      "img": "yt"
+    },
+    {
+      "url": "https://facebook.com",
+      "img": "facebook"
+    },
+    {
+      "url": "https://twitter.com",
+      "img": "twitter"
+    }
+  ]
+}
