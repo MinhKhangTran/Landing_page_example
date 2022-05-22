@@ -3,19 +3,23 @@
   "navigations": [
     {
       "url": "https://instagram.com",
-      "img": "insta"
+      "img": "insta",
+      "name": "instagram"
     },
     {
       "url": "https://youtube.com",
-      "img": "yt"
+      "img": "yt",
+      "name": "youtube"
     },
     {
       "url": "https://facebook.com",
-      "img": "facebook"
+      "img": "facebook",
+      "name": "facebook"
     },
     {
       "url": "https://twitter.com",
-      "img": "twitter"
+      "img": "twitter",
+      "name": "twitter"
     }
   ]
 }

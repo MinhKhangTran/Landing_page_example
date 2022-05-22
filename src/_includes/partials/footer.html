@@ -1,8 +1,18 @@
 <footer class="wrapper footer wf-section">
-  <div><p class="paragraph-4">© {{ "" | year}}, {{footer.brand}}</p></div>
+  <div>
+    <p style="color: #6f727d" class="paragraph-4">
+      © {{ "" | year}}, {{footer.brand}}
+    </p>
+  </div>
   <div class="div-block-8">
     {% for nav in footer.navigations %}
-    <a href="{{nav.url}}" class="w-inline-block">
+    <a
+      title="{{nav.name}}"
+      href="{{nav.url}}"
+      class="w-inline-block"
+      target="_blank"
+      rel="noopener"
+    >
       <img src="/images/{{nav.img}}.svg" loading="lazy" width="40" alt="" />
     </a>
     {% endfor %}
